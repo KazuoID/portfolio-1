@@ -1,0 +1,113 @@
+.kz-header {
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.kz-logo {
+    margin-bottom: -94px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.kz-nav-bar {
+    background: burlywood;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 18px;
+}
+
+.kz-list {
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.kz-nav-bar li {
+    margin-right: 30px;
+    display: flex;
+    margin-left: 30px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.kz-nav-bar li:hover {
+    background: aliceblue;
+    color: white;
+}
+
+.kz-body1 {}
+
+.kz-body1-page1 {}
+
+.kz-body1-page1 img {
+    border-radius: 100px;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.kz-body1-page1-msg {
+    margin-left: 500px;
+    margin-top: -400px;
+    margin-right: 40px;
+}
+
+.kz-body1-page1-msg h1 {
+    text-align: center;
+}
+
+.kz-footer {
+    background: burlywood;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    margin-top: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* ============= */
+/*  screen size  */
+/* ============= */
+
+
+@media screen and (max-width: 320px) {
+    .kz-logo {
+        margin-bottom: -0px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .kz-nav-bar {
+        background: burlywood;
+        margin-left: -0px;
+        margin-right: -0px;
+        padding-top: 0px;
+    }
+
+    .kz-body1-page1 img {
+        border-radius: 100px;
+        width: 60%;
+        margin-left: 64px;
+        /* margin-top: 40px;*/
+    }
+
+    .kz-body1-page1-msg {
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+
+    .kz-footer {
+        margin-top: 200px;
+    }
+}
